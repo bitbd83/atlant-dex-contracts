@@ -19,7 +19,7 @@ function zeppelin {
 function rbt {
   github \
     AtlantPlatform/rbt-solidity \
-    230b0584d7f60f25b25879dc543e6b40a30e1e89 \
+    master \
     $1 $2
 }
 
