@@ -33,6 +33,22 @@ This contract references the rbt-solidity library, providing RB tree data struct
 * Order insertion **O(log n)**
 * Order removal **O(log n)**
 
+## Build instructions
+**Test**
+```
+npm install -g ethereumjs-testrpc
+./install-deps.sh
+./testrpc.sh
+truffle test
+```
+
+**Production**
+```
+./install-deps.sh
+truffle compile
+truffle migrate
+```
+
 Built with Truffle and OpenZeppelin.
 
 Published under MIT license.
